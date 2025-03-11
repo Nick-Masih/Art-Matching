@@ -1,6 +1,6 @@
 # ART MATCHING
 
-Utilized resnet50 and met museum dataset [here](https://github.com/metmuseum/openaccess/blob/master/MetObjects.csv) to create a vector embedding of paintings.
+Utilized resnet50 and the [met museum dataset](https://github.com/metmuseum/openaccess/blob/master/MetObjects.csv) to create a vector embedding of paintings.
 
 The embeddings were then uploaded to qdrant cloud and a basic search function was implemented to search for paintings based on the query embedding.
 
