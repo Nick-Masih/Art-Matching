@@ -13,9 +13,6 @@ API_KEY=\<your qdrant api key\>
 DATABASE_URL=\<your qdrant db url\>  
 COLLECTION_NAME=\<whatever you want to call the collection\>  
 
-
-*Running the app*
-
 **Step 2:**  
 cd backend  
 uvicorn app:app --host 0.0.0.0 --port 8000 --reload  
