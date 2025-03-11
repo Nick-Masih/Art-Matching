@@ -7,7 +7,7 @@ The embeddings were then uploaded to qdrant cloud and a basic search function wa
 The search function was then integrated with a basic next.js frontend that allows for a user to upload an image and get back a list of 5 paintings from the database that are most similar to the uploaded image.
 
 ## **How To Run the App**
-**Step 1:**  
+**Step 1:**
 Create a .env file with these values  
 API_KEY=\<your qdrant api key\>  
 DATABASE_URL=\<your qdrant db url\>  
