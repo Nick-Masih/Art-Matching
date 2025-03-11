@@ -8,16 +8,16 @@ The search function was then integrated with a basic next.js frontend that allow
 
 ## **How To Run the App**
 **Prerequisite:**
-Create a .env file with values
-API_KEY=\<your qdrant api key\>
-DATABASE_URL=\<your qdrant db url\>
-COLLECTION_NAME=\<whatever you want to call the collection\>
+Create a .env file with values  
+API_KEY=\<your qdrant api key\>  
+DATABASE_URL=\<your qdrant db url\>  
+COLLECTION_NAME=\<whatever you want to call the collection\>  
 
-**Step 1:**
-cd backend
-uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+**Step 1:**  
+cd backend  
+uvicorn app:app --host 0.0.0.0 --port 8000 --reload  
 
-**Step 2:**
-*New Terminal*
-cd frontend 
+**Step 2:**  
+*New Terminal*  
+cd frontend  
 npm run dev
