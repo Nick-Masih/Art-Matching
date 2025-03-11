@@ -63,7 +63,9 @@ __pycache__/
 .env
 
 # Node
-frontend/node_modules/
+**/node_modules/
 frontend/.next/
+
+
 
 
